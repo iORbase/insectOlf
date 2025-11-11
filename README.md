@@ -64,4 +64,9 @@ project/
 
 #### Version Compatibility
 - Python 3.8+
+
 - Dependency libraries see `requirements.txt`
+
+#### Scope of model application
+- The existing model is trained based on data from Diptera insects (*Drosophila melanogaster* and *Anopheles gambiae*). According to our view, it should be able to make relatively effective VOI predictions within the diptera range.
+- In addition, we have also constructed models based on Lepidoptera and Orthoptera, coming soon.
