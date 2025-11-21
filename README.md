@@ -30,7 +30,9 @@ This framework enables high-throughput, accurate VOI prediction, facilitating th
 ### 3. Processing Pipeline
 
 1. **Protein and small molecule feature extraction**
-     run `protein_preprocessing.py` and `smile_preprocessing.py` to extract the features, you need to get the feature extract model(protT5_local and Smodel) before
+     run `protein_preprocessing.py` and `smile_preprocessing.py` to extract the features
+     you need to get the feature extract model(`protT5_local` and `Smodel`) before
+     you can get the extract model in: https://huggingface.co/iORbase/insectOlf
    - After protein extraction, you can get the features: 
      - `per_protein_embeddings_*.h5` (protein level)
    - After small molecule extraction, you can get the features:
@@ -69,4 +71,5 @@ project/
 #### Scope of model application
 - The existing model is trained based on data from Diptera insects (*Drosophila melanogaster* and *Anopheles gambiae*). According to our view, it should be able to make relatively effective VOI predictions within the diptera range.
 - In addition, we have also constructed models based on Lepidoptera and Orthoptera, coming soon.
+
 
